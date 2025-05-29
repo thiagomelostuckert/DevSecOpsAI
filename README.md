@@ -1,11 +1,15 @@
 # DevSecOpsAI
 Experimentos com inteligência artificial para melhorar o ciclo de desenvolvimento seguro. 
 
-Sistema vulnerável: https://github.com/juice-shop/juice-shop 
-## Baixa a última versão da imagem: 
-docker pull bkimminich/juice-shop
-## Executa a imagem: 
-docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop
+ 
+## Clona no projeto
+git clone git@github.com:juice-shop/juice-shop.git
+
+## Compila e executa a imagem: 
+cd juice-shop 
+docker build -t meu-juice-shop .
+docker run -d -p 3000:3000 --name meu-juice-shop-container meu-juice-shop
+
 ## URL 
 http://localhost:3000/#/ 
 
