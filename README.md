@@ -2,10 +2,12 @@
 Experimentos com inteligência artificial para melhorar o ciclo de desenvolvimento seguro. 
 
 Sistema vulnerável: https://github.com/juice-shop/juice-shop 
-Rodando o sistema vulnerável via docker: 
+## Baixa a última versão da imagem: 
 docker pull bkimminich/juice-shop
-Run: docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop
-Browse: http://localhost:3000/#/ 
+## Executa a imagem: 
+docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop
+## URL 
+http://localhost:3000/#/ 
 
 DAST: 
 OWASP ZAP: https://www.zaproxy.org/
